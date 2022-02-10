@@ -20,19 +20,36 @@ div.luxury{
 }
 
 
-@media screen and (min-device-width: 0px) and (max-device-width: 450px) { 
+@media screen and (min-device-width: 0px) and (max-device-width: 290px) { 
     .card{
-        height: 70vh;
+        height: 190vw;
+    }
+    .card-text{
+        font-size: 11px;   
+    }
+}
+@media screen and (min-device-width: 290px) and (max-device-width: 450px) { 
+    .card{
+        height: 125vw;
+    }
+    .card-text{
+        font-size: 12px;   
     }
 }
 @media screen and (min-device-width: 450px) and (max-device-width: 700px) { 
     .card{
-        height: 60vh;
+        height: 85vw;
+    }
+    .card-text{
+        font-size: 15px;   
     }
 }
 @media screen and (min-device-width: 700px) and (max-device-width: 1200px) { 
     .card{
-        height: 65vh;
+        height: 65vw;
+    }
+    .card-text{
+        font-size: 20px;   
     }
 }
 @media screen and (min-device-width: 1200px) and (max-device-width: 1300px) { 
